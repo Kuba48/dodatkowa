@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;700&family=Saira:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Saira;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    height: 90vh;
+    background-image: url(images/masthead_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;
+}
+header nav ul li {
+	display: inline-block;
+}
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 85px;
+	padding: 0 20px;
+	display: block;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.take {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    color: white;
+    font-style: italic;
+}
+.Picture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    margin-left: 32%;
+    width: 400px;
+    color: white;
+}
+.phone {
+    position: absolute;
+    width: 110vw;
+    height: 180vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.start {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.start p, .text p{
+    margin-top: 4%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+    margin-left: 50%;
+    margin-top: 1.8%;
+}
+.photo_section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.photo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5989d;
+    line-height: 30px;
+    width: 26.6vw;
+    height: 29vh;
+    padding-left: 1.5%;
+    color: white;
+}
+.photo1 h1, .photo2 h1, .photo3 h1, .photo4 h1, .photo5 h1, .photo6 h1, .photo7 h1 {
+    margin-bottom: 5%;
+}
+.link {
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5%;
+    width: 100%;
+}
+.photo2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #615f7d;
+    color: white;
+    line-height: 30px;
+    width: 23vw;
+    height: 29vh;
+    padding-left: 1.5%;
+}
+.photo3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/sunset-photographer.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    line-height: 30px;
+    width: 23vw;
+    height: 29vh;
+    padding-left: 1.5%;
+}
+#heart1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 56%;
+}
+.photo4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #bd8cbf;
+    line-height: 30px;
+    width: 26.6vw;
+    height: 29vh;
+    padding-left: 1.5%;
+    color: white;
+}
+.photo5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/man-at-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    line-height: 30px;
+    width: 49.6vw;
+    height: 29vh;
+    padding-left: 1.5%;
+}
+#heart2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 78%;
+}
+.photo6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #82ca9c;
+    color: white;
+    line-height: 30px;
+    width: 23vw;
+    height: 29vh;
+    padding-left: 1.5%;
+}
+.photo7 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/winter-woman.jpg);
+    color: white;
+    line-height: 30px;
+    width: 26.6vw;
+    height: 29vh;
+    padding-left: 1.5%;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    width: 100%;
+}
+.details_start {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.web, .web2, .web3, .web4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.web p, .web2 p, .web3 p, .web4 p {
+    margin-top: 2%;
+    width: 60%;
+}
+.car {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(images/old-car.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 50vw;
+    background-attachment: fixed;
+}
+.car_h1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22%;
+    margin-top: 16%;
+    font-size: 50px;
+}
+.car_text, .car_link {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 22%;
+    margin-top: 2%;
+}
+.car_link {
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+.reasons {
+    display: flex;
+    background-color: #82ca9c;
+    color: white;
+    padding-top: 5%;
+    padding-left: 6.5%;
+    padding-bottom: 2%;
+}
+.green {
+    display: flex;
+    background-color: #82ca9c;
+    color: white;
+    padding-bottom: 5%;
+}
+.offerts {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    height: 40vh;
+}
+.legacy {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+}
+.legacy2 {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 400px;
+}
+.legacy:hover {
+    box-shadow: 0px 0px 12px 11px lightblue;
+.button_1 {
+    background-color: darkorchid;
+}
+}
+.button_1 {
+    width: 100px;
+    height: 25px;
+    background-color: #e1e1e1;
+    color: white;
+    border-radius: 5px;
+    border-color: #e1e1e1;
+    border: none;
+    margin-bottom: 8%;
+}
+.button_2 {
+    width: 120px;
+    height: 30px;
+    background-color: #82ca9c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5%;
+}
+.button_2:hover {
+    background-color: darkgreen;
+    width: 130px;
+    height: 40px;
+    animation: animation infinite;
+    transition-duration: 1s;
+}
+@keyframes animation {
+    0%,
+    40%,
+    80%,
+    100% {
+        width: 140px;
+        height: 50px;
+    }
+}
+.app {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    font-size: 35px;
+    color: gray;
+}
+.footer {
+    background-color: #192431;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+.ft {
+    display: flex;
+    flex-direction: column;
+    background-color: #192431;
+    color: white;
+    margin-top: 6.5%;
+}
+.ft_2 {
+    display: flex;
+    align-items: flex-end;
+}
+.ft2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.5%;
+}
+#check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #82ca9c;
+}
+#check:hover {
+    background-color: darkgreen;
+}
+.ft_t {
+    margin-top: 5%;
+    width: 600px;
+    margin-bottom: 5%;
+}
+.ft_t2 {
+    padding-top: 3%;
+    width: 350px;
+    font-size: 14px;
+    color: lightslategray;
+}
+#email {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.5%;
+    height: 40px;
+    width: 350px;
+}
+.column {
+    column-count: 3;
+    column-gap: 100px;
+}
+.column_up {
+    padding-bottom: 20%;
+}
